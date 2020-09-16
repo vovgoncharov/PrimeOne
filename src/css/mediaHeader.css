@@ -1,0 +1,191 @@
+.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.display__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-center__style {
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  font-size: 8px;
+  color: #000;
+  display: block;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.header-menu__style {
+  font-family: "Akzidenz";
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 15px;
+  color: #000;
+  font-weight: 700;
+}
+
+.own__title {
+  font-size: 50px;
+  font-family: "Akzidenz";
+  text-transform: uppercase;
+}
+
+.own__title2 {
+  font-size: 25px;
+  font-family: "Akzidenz";
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.own__text {
+  font-size: 15px;
+  color: #000;
+  line-height: 25px;
+}
+
+.own__button {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #fff;
+  color: #000;
+  font-family: "Bebas Neue", cursive;
+  padding: 18px 33px;
+  font-size: 25px;
+}
+
+.own__link {
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+}
+
+@media screen and (max-width: 1024px) {
+  .header .wrap {
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .wrap .header__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .header .wrap .header__bottom .header__bottom__left,
+  .header .wrap .header__bottom .header__bottom__right {
+    display: none;
+  }
+  .header .wrap .header__bottom .menu-burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn {
+    cursor: pointer;
+    width: 20px;
+    padding: 5px;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .burger-open {
+    width: 20px;
+    height: 2px;
+    background: #000;
+    position: relative;
+    display: block;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .burger-open:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    top: -6px;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .burger-open:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    bottom: -6px;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .burger-close {
+    width: 20px;
+    height: 2px;
+    background: #000;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    position: relative;
+    display: none;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .burger-close:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #000;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .display-none {
+    display: none;
+  }
+  .header .wrap .header__bottom .menu-burger .menu-burger-btn .display-block {
+    display: block;
+  }
+  .header .wrap .header__bottom nav ul li {
+    margin-top: 15px;
+  }
+  .header .wrap .header__bottom nav ul li a {
+    font-family: "Akzidenz";
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+  .header .wrap .header__bottom .menu-burger-navigation {
+    display: none;
+  }
+  .header .wrap .header__bottom .display-block {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header .wrap .header__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .wrap .header__bottom .menu-burger {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=mediaHeader.css.map */

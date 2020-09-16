@@ -1,0 +1,30 @@
+@media screen and (max-width: 850px) {
+  .main .choose .choose__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .choose .choose__top img {
+    width: 100%;
+  }
+  .main .choose .choose__top .choose__top__left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main .choose .choose__bottom .wrap .choose__bottom__one {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .choose .choose__bottom .wrap .choose__bottom__one .choose__bottom__one__block {
+    margin-top: 50px;
+  }
+  .main .choose .choose__bottom .wrap .choose__bottom__one .choose__bottom__one__block:nth-child(1) {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=mediaChoose.css.map */

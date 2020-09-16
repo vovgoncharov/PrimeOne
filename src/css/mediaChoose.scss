@@ -1,0 +1,39 @@
+@media screen and (max-width: 850px) {
+    .main {
+        .choose {
+            .choose__top {
+                flex-direction: column;
+
+                img {
+                    width: 100%;
+                }
+
+                .choose__top__left {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .main {
+        .choose {
+            .choose__bottom {
+                .wrap {
+                    .choose__bottom__one {
+                        flex-direction: column;
+
+                        .choose__bottom__one__block {
+                            margin-top: 50px;
+                        }
+
+                        .choose__bottom__one__block:nth-child(1) {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

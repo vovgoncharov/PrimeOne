@@ -1,0 +1,131 @@
+@import 'color';
+
+@media screen and (max-width: 1024px) {
+
+    .header {
+        .wrap {
+            width: 98%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        .wrap {
+
+            .header__bottom {
+                display: flex;
+                justify-content: space-around;
+
+                .header__bottom__left,
+                .header__bottom__right {
+                    display: none;
+                }
+
+                .menu-burger {
+                    display: flex;
+                    align-items: flex-start;
+
+                    .menu-burger-btn {
+                        cursor: pointer;
+                        width: 20px;
+                        padding: 5px;
+
+                        .burger-open {
+                            width: 20px;
+                            height: 2px;
+                            background: $black;
+                            position: relative;
+                            display: block;
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                width: 20px;
+                                height: 2px;
+                                background: $black;
+                                top: -6px;
+                            }
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                width: 20px;
+                                height: 2px;
+                                background: $black;
+                                bottom: -6px;
+                            }
+                        }
+
+                        .burger-close {
+                            width: 20px;
+                            height: 2px;
+                            background: $black;
+                            transform: rotate(45deg);
+                            position: relative;
+                            display: none;
+
+                            &:before {
+                                content: '';
+                                position: absolute;
+                                width: 20px;
+                                height: 2px;
+                                background: $black;
+                                transform: rotate(90deg);
+                            }
+                        }
+
+                        .display-none {
+                            display: none;
+                        }
+
+                        .display-block {
+                            display: block;
+                        }
+                    }
+                }
+
+                nav {
+                    ul {
+                        li {
+                            margin-top: 15px;
+
+                            a {
+                                font-family: $Art;
+                                text-transform: uppercase;
+                                font-size: 15px;
+                                text-decoration: none;
+                                color: $black;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+
+                .menu-burger-navigation {
+                    display: none;
+                }
+
+                .display-block {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        .wrap {
+            .header__bottom {
+                flex-direction: column;
+                align-items: center;
+
+                .menu-burger {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}

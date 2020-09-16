@@ -1,0 +1,60 @@
+@import 'reset';
+@import 'color';
+
+.main {
+    .choose {
+        .choose__top {
+            @extend .display__two;
+
+            .choose__top__left {
+                width: 50%;
+                @extend .own__title;
+                background: $black;
+
+                h2 {
+                    color: #fff;
+                    padding: 58.5px;
+                    text-align: center;
+                }
+            }
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .choose__bottom {
+            background: #ebebeb;
+            padding: 50px 0;
+
+            .choose__bottom__one {
+                @extend .display__two;
+                padding: 0 10px;
+
+                .choose__bottom__one__block {
+                    @extend .display__two;
+
+                    .choose__bottom__block {
+                        margin-left: 10px;
+
+                        .choose__bottom__title {
+                            @extend .own__title2;
+                        }
+
+                        .choose__bottom__text {
+                            font-size: 15px;
+                            color: $black;
+                            margin-top: 35px;
+                        }
+                    }
+                }
+            }
+
+            .one {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@import 'mediaChoose';

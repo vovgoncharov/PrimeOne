@@ -1,0 +1,118 @@
+@media screen and (max-width: 1290px) {
+    .main {
+        .contact {
+            .contact__bottom {
+                .contact__bottom__map {
+
+
+                    .contact__map {}
+                }
+
+                .contact__bottom__form {
+                    width: 50%;
+
+                    .contact__form {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .main {
+        .contact {
+            .contact__top {
+                .wrap {
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .wrap {
+            padding: 0 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .main {
+        .contact {
+            .contact__top {
+                .wrap {
+                    h2 {
+                        text-align: center;
+                    }
+
+                    .contact__address {
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+
+                        .address:nth-child(1) {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+
+            .contact__bottom {
+                flex-direction: column;
+
+                .contact__bottom__map {
+                    width: 100%;
+                }
+
+                .contact__bottom__form {
+                    text-align: center;
+                    width: 100%;
+                    padding: 55px 0 40px 0;
+
+                    .contact__form {
+                        width: 60%;
+                        margin: 25px auto 0 auto;
+                    }
+
+                    .btn {
+                        display: block;
+                        margin: 25px auto 0 auto;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .wrap {
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main {
+        .contact {
+            .contact__top {
+                .wrap {
+                    .contact__address {
+                        .address {
+                            .address__social {
+                                a {
+                                    margin-right: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

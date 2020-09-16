@@ -1,0 +1,65 @@
+@media screen and (max-width: 960px) {
+  .main .private .private__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .private .private__top img {
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .main .private .private__top .private__top__right {
+    width: 90%;
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main .private .private__bottom .wrap .private__bottom__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .private .private__bottom .wrap .private__bottom__block .private__bottom__eat {
+    margin-bottom: 70px;
+  }
+  .main .private .private__bottom .wrap .private__bottom__block .private__bottom__eat:nth-last-child() {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main .private .private__top .private__top__right {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .main .private .private__top .private__top__right {
+    padding-left: 0;
+  }
+  .main .private .private__top .private__top__right .private__right__title {
+    font-size: 30px;
+  }
+  .main .private .private__top .private__top__right .private__right__text {
+    padding: 0 15px;
+  }
+  .main .private .private__top .private__top__right .private__buttons .private__buttons__btn {
+    display: inline-block;
+    margin: 20px 0;
+  }
+  .main .private .private__top .private__top__right .private__buttons .private__buttons__link {
+    display: block;
+  }
+}
+/*# sourceMappingURL=mediaPrivate.css.map */

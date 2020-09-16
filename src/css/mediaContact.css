@@ -1,0 +1,79 @@
+@media screen and (max-width: 1290px) {
+  .main .contact .contact__bottom .contact__bottom__form {
+    width: 50%;
+  }
+  .main .contact .contact__bottom .contact__bottom__form .contact__form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main .contact .contact__top .wrap {
+    padding: 0 20px;
+  }
+  .footer .wrap {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .main .contact .contact__top .wrap h2 {
+    text-align: center;
+  }
+  .main .contact .contact__top .wrap .contact__address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .contact .contact__top .wrap .contact__address .address:nth-child(1) {
+    margin-right: 0;
+  }
+  .main .contact .contact__bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .contact .contact__bottom .contact__bottom__map {
+    width: 100%;
+  }
+  .main .contact .contact__bottom .contact__bottom__form {
+    text-align: center;
+    width: 100%;
+    padding: 55px 0 40px 0;
+  }
+  .main .contact .contact__bottom .contact__bottom__form .contact__form {
+    width: 60%;
+    margin: 25px auto 0 auto;
+  }
+  .main .contact .contact__bottom .contact__bottom__form .btn {
+    display: block;
+    margin: 25px auto 0 auto;
+  }
+  .footer .wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .wrap p {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main .contact .contact__top .wrap .contact__address .address .address__social a {
+    margin-right: 30px;
+  }
+}
+/*# sourceMappingURL=mediaContact.css.map */

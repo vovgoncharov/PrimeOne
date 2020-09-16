@@ -1,0 +1,72 @@
+$black: #000;
+$bebas: 'Bebas Neue',
+cursive;
+$Art: 'Akzidenz';
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display__two {
+    display: flex;
+    justify-content: center;
+}
+
+.header-center__style {
+    text-transform: uppercase;
+    font-family: $bebas;
+    font-size: 8px;
+    color: $black;
+    display: block;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.header-menu__style {
+    font-family: $Art;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: $black;
+    font-weight: 700;
+}
+
+.own__title {
+    font-size: 50px;
+    font-family: $Art;
+    text-transform: uppercase;
+}
+
+.own__title2 {
+    font-size: 25px;
+    font-family: $Art;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.own__text {
+    font-size: 15px;
+    color: $black;
+    line-height: 25px;
+}
+
+.own__button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #fff;
+    color: $black;
+    font-family: $bebas;
+    padding: 18px 33px;
+    font-size: 25px;
+}
+
+.own__link {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $bebas;
+}
